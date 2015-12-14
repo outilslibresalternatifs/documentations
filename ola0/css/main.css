@@ -1,0 +1,238 @@
+html{height:100%;color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;} button { background: none; border: none; margin: 0; padding: 0; width: auto; overflow: visible; line-height:inherit;}button::-moz-focus-inner{padding:0;border:0;}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,body,header{height:100%;}
+body{
+  font-family:"now", arial, sans-serif;
+  margin:0;
+  font-size:18px;
+  line-height:30px;
+}
+header{
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  z-index:7;
+  width:300px;
+  overflow:auto;
+  border-right:1px solid black;
+
+}
+.titles{
+  margin:10px;
+}
+
+nav{
+   margin-top:20px;
+}
+nav li{
+    list-style-type:none;
+    display:block;
+    font-size:14px;
+    line-height:25px;
+}
+nav li a{
+    text-decoration:none;
+    border-bottom:1px solid #ccc;
+}
+
+nav li.H3{
+  margin-left:20px;
+}
+nav li.H4{
+  margin-left:40px;
+}
+nav li.H4:before{
+  content:"⬢ ";
+  font-size:10px;
+  bottom:1px;
+  position:relative;
+}
+.main-content{
+  margin:0 0 0 300px;
+  padding:0px 10px 50px 50px;
+}
+
+.textbox{
+  width:100%;
+  max-width:850px;
+}
+.textbox img{
+  margin-top:20px;
+  max-width:550px;
+  height:auto;
+}
+footer{
+  margin-top:20px;
+  font-size:14px;
+  text-align:center;
+}
+
+.button{
+  display:block;
+  width:50%;
+  color:white;
+  background:black;
+  border:none;
+  padding:10px;
+  margin:0 auto;
+  text-align:center;
+  text-decoration:none;
+}
+/* Typography */
+
+header h2{
+  font-size:12px;
+  margin:0;
+  font-weight:normal;
+  font-family:"source_code_pro", courier new, monospace;
+}
+.textbox h1, li.H1{display:none;}
+.textbox h2{
+  font-weight:bold;
+  margin:0px 0 20px 0;
+  padding-top:40px;
+  font-size:25px;
+}
+.textbox h3{
+  border-bottom:1px solid gray;
+  padding-bottom:5px;
+  margin:40px 0 20px 0;
+}
+.textbox h4{
+  margin-bottom:20px;
+  margin:40px 0 20px 0;
+}
+.textbox h4:before{
+  content:"⬢ ";
+  position:relative;
+  bottom:1px;
+  font-size:15px;
+  margin-right:10px;
+}
+p{
+  margin:0 0 10px 0;
+}
+a:hover{
+  color:#555;
+  text-decoration:none;
+}
+a, a:active{
+  color:black;
+}
+pre{
+  font-family:"source_code_pro", courier new, monospace;
+  font-size:15px;
+  line-height:21px;
+  letter-spacing:1px;
+    background:#DDE0E3;
+    padding:3px;
+    margin-bottom:5px;
+    white-space:pre-wrap;
+}
+.textbox ul, .textbox ol{
+  padding:0 0 0 40px;
+  margin:0 0 10px 0;
+}
+.textbox li{
+  margin-bottom:10px;
+  list-style-type:none;
+}
+.textbox li:before{
+  content:"— ";
+  margin-right:10px;
+}
+
+/* Gallery */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery .image {
+  width: 66%;
+  height: 200px;
+  width:auto;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+.gallery .image:hover {
+  opacity:.8;
+}
+/* cell number */
+.gallery .image:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+/* Fonts */
+
+@font-face {
+  font-family: 'AnkaHackerRegular';
+  src: url('font/ankahacker-r.eot');
+  src: url('font/ankahacker-r.eot?#iefix') format('embedded-opentype'),
+    url('font/ankahacker-r.woff') format('woff'),
+    url('font/ankahacker-r.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'now';
+    src: url('font/now-bold-webfont.eot');
+    src: url('font/now-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/now-bold-webfont.woff2') format('woff2'),
+         url('font/now-bold-webfont.woff') format('woff'),
+         url('font/now-bold-webfont.ttf') format('truetype'),
+         url('font/now-bold-webfont.svg#nowbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'now';
+    src: url('font/now-regular-webfont.eot');
+    src: url('font/now-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/now-regular-webfont.woff2') format('woff2'),
+         url('font/now-regular-webfont.woff') format('woff'),
+         url('font/now-regular-webfont.ttf') format('truetype'),
+         url('font/now-regular-webfont.svg#nowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'source_code_pro';
+  src: url('font/sourcecodepro-regular-webfont.eot');
+  src: url('font/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/sourcecodepro-regular-webfont.woff') format('woff'),
+    url('font/sourcecodepro-regular-webfont.ttf') format('truetype'),
+    url('font/sourcecodepro-regular-webfont.svg#source_code_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_code_pro';
+  src: url('font/sourcecodepro-semibold-webfont.eot');
+  src: url('font/sourcecodepro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/sourcecodepro-semibold-webfont.woff') format('woff'),
+    url('font/sourcecodepro-semibold-webfont.ttf') format('truetype'),
+    url('font/sourcecodepro-semibold-webfont.svg#source_code_prosemibold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
