@@ -12,7 +12,7 @@ Pour ce deuxième événement, nous avons invité Aby Batti, game designer et co
 
 ### L’Opendoc
 
-Certains participants ont utilisé la pratefore de documentation [L’Opendoc](http://www.lopendoc.org/ola1/) pour poster leurs travaux en cours ou des tutoriels. Voici la liste des pages à consulter :
+Certains participants ont utilisé la prateforme de documentation [L’Opendoc](http://www.lopendoc.org/ola1/) pour poster leurs travaux en cours ou des tutoriels. Voici la liste des pages à consulter :
 
 - [Sculpter des formes, lumières, changer la langue, déplacements à la souris, modification des raccourcis clavier…](http://www.lopendoc.org/ola1/projets/tutos/)
 - [Three JS : Rendre un objet interractif au click](http://www.lopendoc.org/ola1/projets/sarah-threejs-experiments/)
@@ -21,16 +21,16 @@ Certains participants ont utilisé la pratefore de documentation [L’Opendoc](h
 ### Blender
 
 - [Documentation officielle](http://www.blender.org/manual/)
-- Option d’affichage des touches pressées, pratique pour les tutoriels videos : [Add-on](https://svn.blender.org/svnroot/bf-extensions/trunk/py/scripts/addons/space_view3d_screencast_keys.py), [Usage](http://i.stack.imgur.com/v8mZC.png)
+- Option d’affichage des touches pressées, pratique pour les tutoriels videos : [Add-on](https://svn.blender.org/svnroot/bf-extensions/trunk/py/scripts/addons/space_view3d_screencast_keys.py) |  [Usage](http://i.stack.imgur.com/v8mZC.png)
 - [Raccourcis clavier, avec les équivalents mac](http://wiki.blender.org/index.php/Doc:2.4/Reference/Hotkeys/All)
 - [Blender VR (réalité augmentée)](https://blendervr.limsi.fr/doku.php?id=start)
 
 ### Three.js
-- Demo simple d’un objet dans une page web : [Demo](content/threejs-simple-object), [télécharger](content/threejs-simple-object.zip)
+- Demo simple d’un objet dans une page web : [Demo](content/threejs-simple-object) |  [Télécharger](content/threejs-simple-object.zip)
 - [Add-on ThreeJS exporter](https://github.com/mrdoob/three.js/blob/102aad11969056849fcdae0402a6f7e12be0bd21/utils/exporters/blender/README.md)
-- [Three Js Frist person engine](http://icecreamyou.github.io/Nemesis/), [examples](https://github.com/cjcliffe/CubicVR.js/wiki/Examples-and-Demos)
+- [Three Js Frist person engine](http://icecreamyou.github.io/Nemesis/) |  [examples](https://github.com/cjcliffe/CubicVR.js/wiki/Examples-and-Demos)
 - [Motion detection](https://stemkoski.github.io/Three.js/Webcam-Motion-Detection.html)
-- Online editors : [Threefab](http://blackjk3.github.io/threefab/), [SculptGL](http://stephaneginier.com/sculptgl/), [Webgl Studio](http://webglstudio.org/)
+- Online editors : [Threefab](http://blackjk3.github.io/threefab/) |  [SculptGL](http://stephaneginier.com/sculptgl/) | [Webgl Studio](http://webglstudio.org/)
 - [Demo d’interraction physique](http://timothypoon.com/blog/demos/three-js-and-jiglibjs/)
 - [Charger des .obj avec Three.js](https://gist.github.com/hugohil/c5afe17c6aa24b46a8a6)
 
